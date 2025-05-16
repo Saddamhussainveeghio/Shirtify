@@ -118,7 +118,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 350px;
+    width: 250px;
     height: 300px;
     background: #fff;
     border-radius: 20px;
@@ -126,7 +126,7 @@ a {
     transition: 0.5s;
 }
 .container .card:hover{
-    height: 400px;
+    height: 320px;
 }
 .container .card .imgbx{
     position: relative;
