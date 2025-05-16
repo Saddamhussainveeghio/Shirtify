@@ -97,3 +97,10 @@ a {
   height: 250px;
   object-fit: cover;
 }
+.ready2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#00bcd4,#ffeb3b);
+}
