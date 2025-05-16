@@ -151,3 +151,36 @@ a {
     height: 100%;
     object-fit: cover;
 }
+.container .card .content{
+  position: absolute;
+  top: 252px;
+  width: 100%;
+  padding: 0 30px;
+  height: 35px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s;
+}
+.container .card:hover .content{
+top: 130px;
+height: 250px;
+}
+.container .card .content h2{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #00bcd4;
+}
+.container .card .content p{
+  color: #333;
+}
+.container .card .conten a{
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  background: #00bcd4;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+}
